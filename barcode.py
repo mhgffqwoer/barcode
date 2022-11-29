@@ -1,5 +1,6 @@
 from tkinter import Tk, Canvas
 
+
 WHITE_CODE = '00000000000'
 CODE_B = '11010010000'
 STOP_CODE = '11000111010'
@@ -12,6 +13,7 @@ BLACK_COLOR = "#000000"
 UPPER_BAR_CODE_BORDER_Y = 190
 BOTTOM_BAR_CODE_BORDER_Y = 10
 SHIFT_X = 7
+
 
 def codes(i: int, j: int):  # функция создания и вывода кодов
     codes = [[0, ' ', '11011001100'],
